@@ -6,9 +6,8 @@ body {
   position: relative;
 }
 
-/* Common styles for all boxes */
 div {
-  position: absolute; /* <--- this was missing for your divs */
+  position: absolute;
   padding: 10px 20px;
   background: #3498db;
   color: white;
@@ -16,7 +15,6 @@ div {
   border-radius: 6px;
 }
 
-/* Positions */
 .top-left {
   top: 10px;
   left: 10px;
