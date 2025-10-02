@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: lightyellow;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Common styles for all boxes */
+div {
+  position: absolute; /* <--- this was missing for your divs */
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* Positions */
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
