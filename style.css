@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: lightyellow;
+  background: lightblue;
   font-family: Arial, sans-serif;
   position: relative;
 }
@@ -9,7 +9,7 @@ body {
 div {
   position: absolute;
   padding: 10px 20px;
-  background: #3498db;
+  background: #349;
   color: white;
   font-weight: bold;
   border-radius: 6px;
